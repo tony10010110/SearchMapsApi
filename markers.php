@@ -6,7 +6,7 @@
  * Time: 20:37
  */
 
-include_once $_SERVER['DOCUMENT_ROOT'] . 'Controllers/MarkersController.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Controllers/MarkersController.php';
 
 $controller = new MarkersController();
 $controller->getMarkers();

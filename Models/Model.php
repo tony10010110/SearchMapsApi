@@ -6,11 +6,10 @@
  * Time: 17:04
  */
 
-include_once $_SERVER['DOCUMENT_ROOT'] . 'config/Storage.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/config/Storage.php';
 
 class Model
 {
-
     protected $db; //connected database
 
     public function __construct()

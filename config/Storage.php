@@ -8,7 +8,7 @@
 
 class Storage
 {
-    private $db;
+    protected $db;
     private static $instance;
 
     public function __construct()

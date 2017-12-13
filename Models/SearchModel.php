@@ -6,17 +6,10 @@
  * Time: 17:04
  */
 
-include_once $_SERVER['DOCUMENT_ROOT'] . 'Models/Model.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Models/Model.php';
 
 class SearchModel extends Model
 {
-    private $db;
-
-    public function __construct()
-    {
-        $this->db = Storage::getInstance();
-    }
-
     public function setResult($data)
     {
         $query = '
@@ -25,5 +18,4 @@ class SearchModel extends Model
 
         return $this->db->execute($query, $data);
     }
-
 }

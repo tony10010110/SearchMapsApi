@@ -6,8 +6,8 @@
  * Time: 17:05
  */
 
-include_once $_SERVER['DOCUMENT_ROOT'] . 'Models/SearchModel.php';
-include_once $_SERVER['DOCUMENT_ROOT'] . 'Views/SearchView.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Models/SearchModel.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Views/SearchView.php';
 
 class SearchController
 {

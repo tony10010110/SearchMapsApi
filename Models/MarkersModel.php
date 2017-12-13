@@ -6,17 +6,10 @@
  * Time: 20:41
  */
 
-include_once $_SERVER['DOCUMENT_ROOT'] . 'Models/Model.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Models/Model.php';
 
 class MarkersModel extends Model
 {
-    private $db;
-
-    public function __construct()
-    {
-        $this->db = Storage::getInstance();
-    }
-
     public function getMarkers()
     {
         $query = '

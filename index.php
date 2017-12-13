@@ -6,7 +6,7 @@
  * Time: 16:31
  */
 
-include_once $_SERVER['DOCUMENT_ROOT'] . 'Controllers/SearchController.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Controllers/SearchController.php';
 
 $controller = new SearchController();
 $controller->searchAction();

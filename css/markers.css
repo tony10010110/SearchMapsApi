@@ -1,0 +1,20 @@
+#map {
+    height: 100%;
+    width: 70%;
+
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+}
+#list_loc{
+    height: 100%;
+    width: 30%;
+    padding-left: 10pt;
+    background: aquamarine
+}
